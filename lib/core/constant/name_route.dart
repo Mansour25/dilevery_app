@@ -1,0 +1,1 @@
+class AppRouteName { static  const sign_in = '/verify_code' ; static  const verify_code = '/verify_code' ;  static const home = '/home' ;  static const details = '/details' ;  static const archive = '/archive' ;   // final String v = '/verify_code' ;}

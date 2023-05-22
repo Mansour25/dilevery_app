@@ -1,0 +1,1 @@
+import 'dart:typed_data';import 'package:shared_preferences/shared_preferences.dart';class Shared_pref {  static SharedPreferences? sharedPreferences;  init_shared_pref() async {    sharedPreferences = await SharedPreferences.getInstance();  } // Future <bool> set_value(String key, String value) { //   return sharedPreferences!.setString(key, value); //  }}
